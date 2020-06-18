@@ -1,120 +1,136 @@
 <!DOCTYPE html>
 <html>
-<head> <meta charset="utf-8">
-	<title> Mon onglet </title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
+  <title> GlobRun </title>
 </head>
 
-<body> 
+<body>
 	<div class="line-transparent">
     <div class="line-hard"></div>
     <div class="line-medium"></div>
     <div class="line-light"></div>
   </div>
 
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
-  <div class="container">
-    <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
-    <p>Change your life and learn to code at one of our campuses around the world.</p>
-    <a class="btn btn-flat" href="#">Apply now</a>
-  </div>
-</div>
-
-
-  <div class="navbar">
-  	<div> <img src="images/logo.png" width="300px" class="logo"> </div>
-  	<div class="links">
-  		<a href="" class="link">Présentation</a>
-        <a href="" class="link">Team</a>
-        <a href="" class="link">Contact</a>
-  	</div>
-  </div>
-
-	<div class="cadre margin-50px">
-		<h1 class="color-green"> Mojito </h1>
-		<h2> Super cocktail </h2>
-	</div>
-	
-	<p>
-		<div class="cadre margin-50px">
-			La légende raconte que <b>l'histoire du mojito</b> remonterait au début du xvie siècle (la date de naissance officieuse du prédécesseur du mojito est 1586) lorsque le corsaire explorateur anglais Francis Drake, entre deux pillages de La Havane, appréciait siroter des feuilles de menthe pilées avec du tafia (rhum industriel). <i>Cette tradition explique que des clients actuels demandent dans certains bars « give me a Drake » (« donnez moi un Drake » en anglais)2.</i> <br> <br> Au xxe siècle, la recette originelle évolue : le tafia est remplacé par du rhum et le citron vert agrémente le mélange. Ainsi est né le mojito connu aujourd’hui, et qui tire son nom du « mojo », une mixture à base de citron initialement destinée à rehausser le goût des aliments.<br> <br> En 1920, le mojito devint un véritable emblème de la culture cubaine, et est élevé au rang de « cocktail national de Cuba » (le rhum de Cuba est un des principaux produits d'exportation de l'économie de Cuba)<br> <br> Très apprécié par l’écrivain journaliste américain Ernest Hemingway qui venait régulièrement le déguster lorsqu'il vivait à Cuba entre 1939 et 1960, avec ses célèbres habitudes locales « mon Mojito à La Bodeguita del Medio, mon Daïquiri à la El Floridita » (Ernest Hemingway à Cuba)3. Le cocktail finit par s’exporter d’abord aux États-Unis, puis en Europe, avant d’être préparé dans la plupart des bars du monde entier4.<br> <br> En France, il a été démocratisé à partir des années 1990 par une importante campagne marketing de la part de la marque de <strong>rhum Havana Club5</strong>.</p>
-		</div>
-
-<div class="cadre margin-50px">
-	<img src="images/mojito.jpg" width="300px" class="img1">
-
-	<br>
-	<a href="https://github.com/Joz84/ten-hours-of-html-css" target="_blank" class="btn btn-primary"> En savoir plus </a>
-
-	<!-- Button trigger modal -->
-<button type="button" class="btn-yellow" data-toggle="modal" data-target="#exampleModal">
-  Contact
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Me contacter</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Mail : manon.offner@efap.com <br>
-        Téléphone : 07 81 93 69 96 <br>
-        LinkedIn : Manon Offner
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn-yellow" data-dismiss="modal">Appeler</button>
-        <button type="button" class="btn-yellow">Envoyer un mail </button>
-      </div>
+	  <div class="my-navbar">
+    <img src="images/logo.png" class="logo">
+    <div class="links">
+      <a class= "fas fa-envelope link" href="mailto:contact@mihivai.com" target="_blanck": manon.offner@efap.com> </a>
+      <a href="RUNPACK.html" class="link">RUN PACK</a>
+      <a href="VIDÉO.html" class="link">VIDÉO</a>
+      <a href="ITINARY.html" class="link">ITINARY</a>
     </div>
   </div>
+
+
+<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/33703/relay-race-competition-stadium-sport.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);">
+  <div class="container">
+    <h1>Bienvenue sur GlobRun !</h1>
+    <h2> À vos marques, prêts, courez !</h2>
+  </div>
 </div>
+ <br>
 
-</div>
-
-<div class="display-flex margin-right-20px">	
-<div class="cadre texte-left">
-	<h3 class="color-green"> Ingrédients </h3>
-
-	<ul>
-		<li> Sucre de canne </li>
-		<li> Menthe </li>
-		<li> Rhum </li>
-	</ul>
-
-	<ol>
-		<li> 1ère étape </li>
-		<li> 2ème étape </li>
-		<li> 3ème étape </li>
-	</ol>
-</div>
+<center>
+	<h2> Les must have de la course à pied : RUN PACK </h2>
+	<h3> LES ESSENTIELS </h3>
+</center>
 	
-<div class="cadre margin-50px">
-	<h3> Ma recette </h3>
-	<iframe width="727" height="409" src="https://www.youtube.com/embed/qoBhhTcIKNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<div class="cadre">
+<ol>
+ 	 <li> <h3>TROUVER CHAUSSURES À VOTRE PIED : </h3>
+ 	  <p>C'est l'indispensable pour la course, les chaussures. Oui, mais pas n'importe lesquelles ! Il vous faut des baskets bien adaptés à votre pied. Pensez au confort, il ne faut pas qu'elle soient trop sérrées alors prenez une taille au dessus car les pieds gonflent pendant la cours.</p> </li>
+ 	 <li> <h3> LA BRASSIÈRE DE SPORT : </h3> 
+ 	 	<p>En fonction de votre poitrine et de vos sensations prenez un soutien-gorge avec un maintien suffisant, notez que la course à pied est un sport avec un fort impact donc il vaut mieux assurer le coup avec un soutien-gorge de sport de qualité qui maintiendra parfaitement votre poitrine. </p></li>
+  	<li> <h3> TROUVER CHAUSSETTES À SON PIED (AUSSI) : </h3>
+  	 <p>Optez pour des chaussettes spécialement conçues pour le running : avec des zones anti-friction, des bandes de maintien qui assurent le confort pour le pied. Tout est réfléchi pour éviter l’apparition d’ampoules ou autres problèmes plantaires.</p> </li>
+ 	 <li> <h3>LES ACCESSOIRES : </h3> 
+ 	 <p>Ça peut vous paraître futile mais c'est en réalite très pratique. On vous conseille un bracelet de sport pour mettre votre smartphone, si vous faites partie de ceux qui ne peuvent pas courir sans musique, on vous recommande des écouteurs sans fils spécialisés pour la course. Enfin pour bien vous rendre compte de vos performances et progrès, rien de mieux qu'une montre de sport ! Si vous n'avez pas le budget, optez simplement pour une appli running.</p> </li>
+</ol>
 </div>
-</div>
-<div class="cadre margin-50px">
-	<h3> Vos productions </h3>
-	<div class="card" style="width: 18rem;">
-  <img src="images/production.jpg" class="production" >
-  <div class="card-body">
-    <p class="card-text">La reproduction de notre Mojito par Sarah ! </p>
+<br> 
+<center>
+<h2> Avantages et inconvénients de la course intensive </h2>
+<h3>VOUS HÉSITEZ À AUGMENTER LA CADENCE ? CETTE VIDÉO VA VOUS AIDER !</h3>
+<br>
+<iframe class="cadre2" width="966" height="543" src="https://www.youtube.com/embed/PuaVrfpIi5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+<br>
+<center>
+
+<h2> Itinéraire de course </h2>
+<h3> 9KM DANS LE CENTRE DE BORDEAUX </p>
+<iframe class="cadre2" src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d30490.481399865057!2d-0.5757389666478485!3d44.84214181123798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e2!4m5!1s0xd5527b2519d3447%3A0x3301bddc2aa8c34f!2sGare%20Saint%20Jean%2C%20Bordeaux!3m2!1d44.8234624!2d-0.5565138!4m5!1s0xd5527c44567cf9d%3A0x41574cdcced6d11a!2sCit%C3%A9%20du%20Vin%2C%20Submarine%20Pen%2C%20Quai%20de%20Bacalan%2C%20Bordeaux!3m2!1d44.862254199999995!2d-0.5499052!4m5!1s0xd5527cc4b718311%3A0x606a6360875957e2!2sPont%20de%20Pierre%2C%20Quai%20Richelieu%2C%20Bordeaux!3m2!1d44.838542!2d-0.562603!5e0!3m2!1sfr!2sfr!4v1592379373500!5m2!1sfr!2sfr" width="600" height="450" ></iframe>
+</center>
+
+<br> 
+
+<center>
+<a class="my-btn2" href="https://form.typeform.com/to/zDBOHNFC" data-mode="popup"  target="_blank"> VOUS M'EN DITES PLUS SUR VOUS ? </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+</center>
+
+<center>
+<!-- Button trigger modal -->
+      <button type="button" class="my-btn" data-toggle="modal" data-target="#exampleModal">
+        Contactez-moi !
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h3 class="color-green">MON ADRESSE MAIL:</h3>
+              <p>manon.offner@efap.com</p>
+              <div>
+                <a class="socials" href="">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a class="socials" href="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="socials" href="">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+ </center>
+
+<br>
+
+<h1> À bientôt sur GlobRun !  <i class="fas fa-running fa-xs"></i> </h1>
+<div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+  </div>
+  <div class="footer-copyright">
+  <i class="fas fa-heart"></i>  Rejoignez-nous sur les réseaux  <i class="fas fa-heart"></i> 
   </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-<div class="cadre"> Ajoutez vos productions
-<div class="typeform-widget" data-url="https://manonoffner.typeform.com/to/A1UKU4" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=A1UKU4&utm_source=typeform.com-01E95D9J2N1CJFET42DFHPBEBA-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div> 
-</div>
+<script src= "https://kit.fontawesome.com/18ee24e4d3.js" integrity "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
